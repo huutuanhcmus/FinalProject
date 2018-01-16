@@ -17,7 +17,7 @@ namespace QuickNote2
         {
             InitializeComponent();
             SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-FUDVABG\HUUTUAN;Initial Catalog=QuickNote_1512635;Integrated Security=True");
-            SqlDataAdapter ada = new SqlDataAdapter("select Name_tag, Frequency from TagTable", con);
+            SqlDataAdapter ada = new SqlDataAdapter("select Name_tag, Frequency from TagTable order by Frequency desc", con);
             DataTable dt = new DataTable();
             ada.Fill(dt);
 

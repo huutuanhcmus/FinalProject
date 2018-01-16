@@ -10,6 +10,7 @@ namespace QuickNote2
 {
     public partial class ViewNote : MetroFramework.Forms.MetroForm
     {
+        string reverse = "desc";
         SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-FUDVABG\HUUTUAN;Initial Catalog=QuickNote_1512635;Integrated Security=True");
         SqlDataAdapter adapter;
         DataTable table = new DataTable();
@@ -23,7 +24,7 @@ namespace QuickNote2
         private void Note_Load(object sender, EventArgs e)
         {
             table.Clear();
-            adapter = new SqlDataAdapter("SELECT * FROM TagTable order by ID_Tag desc", connection);
+            adapter = new SqlDataAdapter("SELECT * FROM TagTable order by Frequency " + reverse, connection);
             adapter.Fill(table);
             listBox1.DataSource = null;
             listBox1.Items.Clear();
@@ -216,6 +217,15 @@ namespace QuickNote2
         private void button4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (reverse == "desc")
+                reverse = "asc";
+            else
+                reverse = "desc";
+            Note_Load(new object(), new EventArgs());
         }
     }
 }
