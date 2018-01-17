@@ -1,0 +1,35 @@
+Create database QuickNote_1512635
+
+use QuickNote_1512635
+
+
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[NoteTable](
+	[ID_Note] [int] IDENTITY(1,1) NOT NULL,
+	[Date] [date] NOT NULL,
+	[ID_Tag] [nvarchar](256) NOT NULL,
+	[Content] [nvarchar](1024) NOT NULL,
+ CONSTRAINT [PK_NoteTable] PRIMARY KEY CLUSTERED 
+(
+	[ID_Note] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TagTable](
+	[ID_Tag] [int] IDENTITY(1,1) NOT NULL,
+	[Name_tag] [nvarchar](256) NOT NULL,
+	[Frequency] [int] NOT NULL
+) ON [PRIMARY]
+
+GO
