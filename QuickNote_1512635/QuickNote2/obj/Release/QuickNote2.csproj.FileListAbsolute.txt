@@ -16,3 +16,4 @@ C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Release\Q
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Release\QuickNote2.csproj.GenerateResource.Cache
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Release\QuickNote2.exe
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Release\QuickNote2.pdb
+C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Release\QuickNote2.csprojResolveAssemblyReference.cache

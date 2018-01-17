@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -28,9 +29,17 @@ namespace QuickNote2
                 MessageBox.Show("You have not entered a connection string!");
             else
             {
-                App.connect = textBox1.Text;
-                MessageBox.Show("You have successfully change this connection string!");
+                try {
+                    SqlConnection connection = new SqlConnection(textBox1.Text);
+                    App.connect = textBox1.Text;
+                    MessageBox.Show("You have successfully change this connection string!");
+                }
+                catch(Exception e1)
+                {
+                    MessageBox.Show("You have changed the connection string failed!");
+                }
             }
+           
         }
 
         private void label6_Click(object sender, EventArgs e)
