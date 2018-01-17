@@ -69,6 +69,12 @@
     <Compile Include="App.Designer.cs">
       <DependentUpon>App.cs</DependentUpon>
     </Compile>
+    <Compile Include="TroubleShooting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TroubleShooting.Designer.cs">
+      <DependentUpon>TroubleShooting.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewNote.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="App.resx">
       <DependentUpon>App.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TroubleShooting.resx">
+      <DependentUpon>TroubleShooting.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewNote.resx">
       <DependentUpon>ViewNote.cs</DependentUpon>

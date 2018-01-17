@@ -11,7 +11,7 @@ namespace QuickNote2
     public partial class ViewNote : MetroFramework.Forms.MetroForm
     {
         string reverse = "desc";
-        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-FUDVABG\HUUTUAN;Initial Catalog=QuickNote_1512635;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(App.connect);
         SqlDataAdapter adapter;
         DataTable table = new DataTable();
         public ViewNote()
@@ -168,7 +168,7 @@ namespace QuickNote2
             foreach (var substring in substrings)
                 Console.WriteLine(substring);
             //SqlConnection cnn = new SqlConnection();
-            //cnn.ConnectionString = @"Data Source=DESKTOP-FUDVABG\HUUTUAN;Initial Catalog=QuickNote_1512635;Integrated Security=True";
+            //cnn.ConnectionString = App.connect;
             //cnn.Open();
             for (int i = 0; i < substrings.Length; i++)
             {

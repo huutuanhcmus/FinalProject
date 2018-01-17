@@ -4,9 +4,9 @@ C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\bin\Release\Q
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\bin\Release\MetroFramework.Design.dll
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\bin\Release\MetroFramework.dll
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\bin\Release\MetroFramework.Fonts.dll
-C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Release\QuickNote2.csprojResolveAssemblyReference.cache
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Release\QuickNote2.About.resources
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Release\QuickNote2.App.resources
+C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Release\QuickNote2.TroubleShooting.resources
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Release\QuickNote2.ViewNote.resources
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Release\QuickNote2.Statistics.resources
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Release\QuickNote2.TakeNote.resources

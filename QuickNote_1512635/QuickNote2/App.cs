@@ -11,8 +11,10 @@ using System.Windows.Forms;
 namespace QuickNote2
 {
     public partial class 
+        
         App : MetroFramework.Forms.MetroForm
     {
+        public static string connect = @"Data Source=(local);Initial Catalog=QuickNote_1512635;Integrated Security=True";
         Y2KeyboardHook _keyboardHook;
         public App()
         {
@@ -183,6 +185,12 @@ namespace QuickNote2
         {
             About ab = new About();
             ab.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            TroubleShooting ts = new TroubleShooting();
+            ts.Show();
         }
     }
 }

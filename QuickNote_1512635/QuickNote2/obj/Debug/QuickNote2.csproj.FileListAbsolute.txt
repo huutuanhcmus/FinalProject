@@ -60,3 +60,4 @@ C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Debug\Qui
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Debug\QuickNote2.FindNote.resources
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Debug\QuickNote2.Properties.Resources.resources
 C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Debug\QuickNote2.csproj.GenerateResource.Cache
+C:\Users\MAIHUUTUAN\Desktop\QuickNote\QuickNote_1512635\QuickNote2\obj\Debug\QuickNote2.TroubleShooting.resources

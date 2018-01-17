@@ -15,7 +15,7 @@ namespace QuickNote2
 {
     public partial class ViewAndSaveNote : MetroFramework.Forms.MetroForm
     {
-        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-FUDVABG\HUUTUAN;Initial Catalog=QuickNote_1512635;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(App.connect);
         SqlDataAdapter adapter;
         DataTable table = new DataTable();
         private String ID;
@@ -106,7 +106,7 @@ namespace QuickNote2
                 foreach (var substring1 in substrings1)
                     Console.WriteLine(substring1);
                 SqlConnection cnn = new SqlConnection();
-                cnn.ConnectionString = @"Data Source=DESKTOP-FUDVABG\HUUTUAN;Initial Catalog=QuickNote_1512635;Integrated Security=True";
+                cnn.ConnectionString = App.connect;
                 cnn.Open();
                 for (int i = 0; i < substrings1.Length; i++)
                 {
