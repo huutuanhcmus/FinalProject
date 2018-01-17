@@ -47,15 +47,6 @@ namespace QuickNote2
                     ctrldown = false;
                 }
             };
-            try
-            {
-                SqlConnection connection = new SqlConnection(connect);
-                MessageBox.Show("You have successfully connected SQL Server!");
-            }
-            catch (Exception e1)
-            {
-                MessageBox.Show("You have connected the SQL Server failed!");
-            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
